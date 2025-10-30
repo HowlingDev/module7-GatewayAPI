@@ -5,4 +5,11 @@ user:
     url: "http://localhost:8080/users"
 notification:
   service:
-    url: "http://localhost:8000//api/notifications"
+    url: "http://localhost:8000/api/notifications"
+logging:
+  file:
+    path: logs/log4j2.log
+    clean-history-on-start: true
+  output:
+    ansi:
+      enabled: ALWAYS
